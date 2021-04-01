@@ -141,17 +141,11 @@
 
 /* Begin PBXFileReference section */
 		33388CEF1FDEA83A00CB93ED /* de */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = de; path = de.lproj/Credits.rtf; sourceTree = "<group>"; };
-		33388CF01FDEA84300CB93ED /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/GeneralPrefsView.xib; sourceTree = "<group>"; };
-		33388CF11FDEA85300CB93ED /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		33388CF21FDEA85B00CB93ED /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/OfflineGamePrefsView.xib; sourceTree = "<group>"; };
-		33388CF31FDEA85F00CB93ED /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/PreferencesWindow.xib; sourceTree = "<group>"; };
-		33388CF41FDEA86300CB93ED /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/ServersPrefsView.xib; sourceTree = "<group>"; };
-		33388CF51FDEA86700CB93ED /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/ThemesPrefsView.xib; sourceTree = "<group>"; };
 		33388CF91FDEAC7000CB93ED /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/GrowlController.strings; sourceTree = "<group>"; };
 		33388CFB1FDEAC8000CB93ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/GrowlController.strings; sourceTree = "<group>"; };
 		33388CFF1FDEB31500CB93ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PreferencePanes.strings; sourceTree = "<group>"; };
 		33388D011FDEB31700CB93ED /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/PreferencePanes.strings; sourceTree = "<group>"; };
-		33388D021FDEBF7900CB93ED /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/KeyboardPrefsView.xib; sourceTree = "<group>"; };
 		33388D061FDEC22300CB93ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/WindowController.strings; sourceTree = "<group>"; };
 		33388D081FDEC22400CB93ED /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/WindowController.strings; sourceTree = "<group>"; };
 		33388D0C1FDEC39A00CB93ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/NetworkController.strings; sourceTree = "<group>"; };
@@ -317,7 +311,6 @@
 		6A9C3EDC12C9719900C78BFD /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/KeyboardPrefsView.xib; sourceTree = "<group>"; };
 		6A9C3EDE12C9719900C78BFD /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6A9C3EE012C9719900C78BFD /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/OfflineGamePrefsView.xib; sourceTree = "<group>"; };
-		6A9C3EE212C9719900C78BFD /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PreferencesWindow.xib; sourceTree = "<group>"; };
 		6A9C3EE412C9719900C78BFD /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/ServersPrefsView.xib; sourceTree = "<group>"; };
 		6A9C3EE612C9719900C78BFD /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/ThemesPrefsView.xib; sourceTree = "<group>"; };
 		6A9C3EE812C9719900C78BFD /* Arrow Key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow Key.png"; sourceTree = "<group>"; };
@@ -347,6 +340,7 @@
 		6A9C3FAF12C9741100C78BFD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6A9C3FB112C9741100C78BFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8D1107320486CEB800E47090 /* iTetrinet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTetrinet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8252DB26165EA3009179D0 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PreferencesWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1208,7 +1202,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6A9C3ED812C9719900C78BFD /* English */,
-				33388CF01FDEA84300CB93ED /* de */,
 			);
 			name = GeneralPrefsView.xib;
 			sourceTree = "<group>";
@@ -1225,7 +1218,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6A9C3EDC12C9719900C78BFD /* English */,
-				33388D021FDEBF7900CB93ED /* de */,
 			);
 			name = KeyboardPrefsView.xib;
 			sourceTree = "<group>";
@@ -1234,7 +1226,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6A9C3EDE12C9719900C78BFD /* English */,
-				33388CF11FDEA85300CB93ED /* de */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -1251,8 +1242,7 @@
 		6A9C3EE112C9719900C78BFD /* PreferencesWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6A9C3EE212C9719900C78BFD /* English */,
-				33388CF31FDEA85F00CB93ED /* de */,
+				DC8252DB26165EA3009179D0 /* English */,
 			);
 			name = PreferencesWindow.xib;
 			sourceTree = "<group>";
@@ -1261,7 +1251,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6A9C3EE412C9719900C78BFD /* English */,
-				33388CF41FDEA86300CB93ED /* de */,
 			);
 			name = ServersPrefsView.xib;
 			sourceTree = "<group>";
@@ -1270,7 +1259,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6A9C3EE612C9719900C78BFD /* English */,
-				33388CF51FDEA86700CB93ED /* de */,
 			);
 			name = ThemesPrefsView.xib;
 			sourceTree = "<group>";
